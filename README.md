@@ -156,3 +156,19 @@ uno.hex file and repeat the steps again. Now when you connect again, your
 device will be recognised as Arduino Uno.
 
 Once you are done with updating the firmware, it is time to test your hardware.
+
+### Step 5: Testing
+
+Connect your Arduino to the computer and slowly move your RFID tag towards
+your RFID scanner.
+
+If your computer were in the unlocked state, the Arduino would press Win+L and
+send it to a locked state. Withdraw your RFID Tag.
+
+If your computer were in the locked state, the Arduino would enter your
+password based on the keystrokes you have entered in the code and then presses
+enter to unlock your computer. Withdraw your RFID Tag.
+
+This Concludes all the steps required to create this project. To understand various
+components and working principle behind it. Read the Documentation present in
+the folder.
