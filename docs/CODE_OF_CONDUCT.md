@@ -1,34 +1,3 @@
-# Contributing
-
-When contributing to this repository, please first discuss the change you wish to make via issue,
-email, or any other method with the owners of this repository before making a change. 
-
-Please note we have a code of conduct, please follow it in all your interactions with the project.
-
-### General rules
-
- -  Commits must be atomic. Each commit must commit one and only one thing. It has to be a single complete unit of work.
- -  Commit messages must be meaningful, clear and concise. Stress on your grammar.
- - Commits should do exactly what their message says. If a commit affects quite a few files, and does a few related things, mention them in the commit description.
- -  IDE configuration files,temp files and cached data are not meant to be a part of the repository and they should remain so.
- -  Variable names like `a` or `x` are unacceptable, use variable names that describes its purpose.
- -  Format the code correctly before sending a pull request. 
- 
- ### Formatting guidelines
- 
- - For Class, method declarations and anything else, have braces starting in the next line. 
- - One space between operators and operands is a must.
- - Make sure a line doesn't exceed 80 characters. 
- 
-   
-### Pull Request Process
-
- -  Check if there's already a PR assigned to someone that solves a similar problem to yours.
- - Ensure that the pull request is being sent from a hotfix/feature branch and not from `master`.
- - Check the issue page if the feature you are trying to add/bug you are trying to fix is already in the list. If it does, mention the issue number in parentheses with the pull request.
- - Provide a clear, concise description of why this pull request is necessary and what value it adds. Make sure that your PR doesn't contain any more or less than what the PR description says.
- - One PR should do only one thing only. No more, no less. If you want to implement two new features, open two PRs.
-
 ## Code of Conduct
 
 ### Our Pledge
@@ -100,4 +69,4 @@ members of the project's leadership.
 
 This Code of Conduct is adapted from the [Contributor Covenant][homepage], version 1.4.
 
-[homepage]: http://contributor-covenant.org
+[homepage]: http://contributor-covenant.org	
