@@ -71,3 +71,61 @@ modify the code.
 
 Once, the connections are made, you are ready to get started with the software
 part of the project.
+
+### Step 3: Changing The Code
+
+Firstly, make sure you add **MFRC522** Library to Arduino IDE
+
+To do this, first go to this, click on this <a href="https://github.com/miguelbalboa/rfid">Link</a>.
+
+Download and Extract the library into libraries folder in Arduino Sketch Folder.
+
+If you don’t know where the Arduino Sketch Folder is, Don’t worry. Follow the
+steps given below.
+
+1. Launch Arduino IDE.
+2. Click on files and then go to preferences.
+3. You should be able to find your Sketchbook location here.
+4. Now, navigate to this folder using Windows Explorer.
+5. If there is no **Libraries** folder there, create one.
+6. Extract the downloaded MFRC522 Library inside this folder.
+
+Once you are done adding the library, you are all set up for editing the code.
+
+The first change you have to do is modify your UID number.
+
+<img src="https://i.ibb.co/09zHpGw/SS1.png" alt="SS1" border="0">
+
+The Line Highlighted is the UID of my RFID tags. Modify them and add your UID
+
+Once you are done modifying the UID, Its time for you to change the keystrokes.
+
+Keystrokes are the keyboard strokes you make to enter your computer password,
+in other words your computer password. So first, you convert your computer
+password into keyboard strokes using the pdf(USBKeyScan) I’ve added in the
+repository.
+
+By Default, my code is set to type ABCD as the keystroke(I had set my computer
+password as ABCD), to set your password.
+
+<img src="https://i.ibb.co/fHkmFdR/SS2.png" alt="SS2" border="0">
+
+You have to edit the highlighted code. Don’t change anything, just go to
+
+buf[2] = 0x **04** ; and change the highlighted number into the keystroke number of
+the first letter of your password using the USBKeyScan.pdf.
+
+Similarly modify the next buf[2] = 0x05 to the second letter of your password.
+
+
+If you want to use more letters, just copy the code and paste it and modify the
+key scan numbers into that of your password.
+
+**NOTE:** Make sure you copy the **delay(50);** as well
+
+Finally, after modification, upload the code to Arduino Uno by selecting the
+correct port and correct COM port.
+
+Once you are done with uploading the code, it is time for you to update the
+Firmware of Arduino in order to change it into a keyboard. So that it can enter
+your password when locked or press Win+L to lock the computer.
