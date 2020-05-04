@@ -98,7 +98,7 @@ Once you are done adding the library, you are all set up for editing the code.
 
 The first change you have to do is modify your `UID number`.
 
-<img src="https://i.ibb.co/09zHpGw/SS1.png" alt="SS1" border="0">
+<img src="https://i.ibb.co/1q8qRjt/SS1.png" alt="SS1" border="0">
 
 The Line Highlighted is the UID of my RFID tags. Remove them and add your UID
 
@@ -112,7 +112,7 @@ repository.
 By Default, my code is set to type ABCD as the keystroke(I had set my computer
 password as ABCD).
 
-<img src="https://i.ibb.co/fHkmFdR/SS2.png" alt="SS2" border="0">
+<img src="https://i.ibb.co/42b8jMM/SS2.png" alt="SS2" border="0">
 
 To set up your password,
 you have to edit the highlighted code. Don’t change anything, just go to
