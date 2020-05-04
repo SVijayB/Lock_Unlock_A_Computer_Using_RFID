@@ -172,3 +172,6 @@ enter to unlock your computer. Withdraw your RFID Tag.
 This Concludes all the steps required to create this project. To understand various
 components and working principle behind it. Read the Documentation present in
 the folder.
+
+## License
+Lock_Unlock_A_Computer_Using_RFID is Licensed under MIT. Read the LICENSE file for more information.
