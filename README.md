@@ -12,6 +12,7 @@ This was an university project that helped me learn the basics of Arduino and C.
 
 <p align="centre">
     <img src="https://i.ibb.co/TKXkSct/Logo2.png" alt="Logo2" border="0">
+</p>
 
 ## Installation
 
@@ -81,7 +82,7 @@ Firstly, make sure you add `MFRC522` Library to Arduino IDE
 
 To do this, click on this <a href="https://github.com/miguelbalboa/rfid">Link</a>.
 
-Download and Extract the library into libraries folder in Arduino Sketch Folder.
+Download and Extract the repository(library) into the libraries folder in Arduino Sketch Folder.
 
 If you don’t know where the Arduino Sketch Folder is, Don’t worry. Follow the
 steps given below.
@@ -148,8 +149,8 @@ Firmware files that are used are present within this repository.
 Now, follow the steps given below:
 
 1. Place a jumper on reset and ground and remove it like in the picture
-2. Open Atmel Flip and select the firmware file `Arduino-Keyboard-0.3.hex`
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;From File Tab -> Load Hex File
+2. Open Atmel Flip and select the firmware file `Arduino-Keyboard-0.3.hex`.</br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;From File Tab -> Load Hex File
 3. Select Run.
 4. Remove USB and plug it again.
 
@@ -177,6 +178,8 @@ enter to unlock your computer. Withdraw your RFID Tag.
 This Concludes all the steps required to create this project. To understand various
 components and working principle behind it. Read the Documentation present in
 the folder.
+
+You can find the demo for this working project <a href="https://www.youtube.com/watch?v=iiAlNSMATn8">here</a>.
 
 ## License
 Lock_Unlock_A_Computer_Using_RFID is Licensed under MIT. Read the LICENSE file for more information.
