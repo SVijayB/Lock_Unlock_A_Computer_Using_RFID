@@ -129,3 +129,30 @@ correct port and correct COM port.
 Once you are done with uploading the code, it is time for you to update the
 Firmware of Arduino in order to change it into a keyboard. So that it can enter
 your password when locked or press Win+L to lock the computer.
+
+### Step 4: Upgrading the Firmware of Atmega16U2 on Board
+
+If you haven't installed <a href="http://ww1.microchip.com/downloads/en/DeviceDoc/JRE%20-%20Flip%20Installer%20-%203.4.7.112.exe">Atmel Flip 3.4.7</a> yet, do it now.
+
+Firmware files are present within this repository.
+<p align="center">
+    <img src="https://i.ibb.co/1QHRKhg/Reset.png" alt="Reset" border="0">
+</p>
+
+Now, follow the steps given below:
+
+1. Place a jumper on reset and ground and remove it like in the picture
+2. Open Atmel Flip and select the firmware file Arduino-Keyboard-0.3.hex
+    from File Tab -> Load Hex File
+3. Select Run.
+4. Remove USB and plug it again.
+
+**NOTE:** if there was an error in the code and you want to update it and upload it
+again into your Arduino, you might notice that your Arduino does not show up on
+your COM ports. Don’t worry, this happens because you have updated the
+firmware of your Arduino. All you have to do is, repeat the above step but instead
+of selecting Arduino-Keyboard-0.3.hex you have to select the Arduino-usbserial-
+uno.hex file and repeat the steps again. Now when you connect again, your
+device will be recognised as Arduino Uno.
+
+Once you are done with updating the firmware, it is time to test your hardware.
