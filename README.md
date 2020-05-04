@@ -10,8 +10,8 @@ A project built to reduce the time it takes to manually type a password, and all
 
 This was an university project that helped me learn the basics of Arduino and C.
 
-<p align="centre">
-    <img src="https://i.ibb.co/TKXkSct/Logo2.png" alt="Logo2" border="0">
+<p align="center">
+    <a href="https://github.com/1StranGe/Lock_Unlock_A_Computer_Using_RFID"><img src="https://i.ibb.co/TKXkSct/Logo2.png" alt="Logo2" border="0"></a>
 </p>
 
 ## Installation
