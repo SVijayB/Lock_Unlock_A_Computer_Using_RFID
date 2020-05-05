@@ -181,5 +181,11 @@ the folder.
 
 You can find the demo for this working project <a href="https://www.youtube.com/watch?v=iiAlNSMATn8">here</a>.
 
+## Contributing 
+
+To contribute to Steam_WebScrapper, fork the repository, create a new branch and send us a pull request. Make sure you read [CONTRIBUTING.md](https://github.com/1StranGe/Lock_Unlock_A_Computer_Using_RFID/blob/master/docs/CONTRIBUTING.md) before sending us Pull requests. 
+
+Also, thanks for contributing to Open-source!
+
 ## License
 Lock_Unlock_A_Computer_Using_RFID is Licensed under MIT. Read the LICENSE file for more information.
