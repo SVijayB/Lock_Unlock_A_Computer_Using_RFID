@@ -188,4 +188,4 @@ To contribute to the project, fork the repository, create a new branch and send 
 Also, thanks for contributing to Open-source!
 
 ## License
-Lock_Unlock_A_Computer_Using_RFID is Licensed under MIT. Read the LICENSE file for more information.
+Lock_Unlock_A_Computer_Using_RFID is Licensed under MIT. Read the [LICENSE](https://github.com/1StranGe/Lock_Unlock_A_Computer_Using_RFID/blob/master/LICENSE) file for more information.
