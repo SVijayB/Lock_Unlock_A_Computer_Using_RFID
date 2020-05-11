@@ -189,5 +189,13 @@ To contribute to the project, fork the repository, create a new branch and send 
 
 Also, thanks for contributing to Open-source!
 
+### Contributors
+
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/naruita"><img src="https://avatars.githubusercontent.com/u/31721284?v=3" width="100px;" alt=""/><br /><sub><b>Naruita</b></sub></td>
+    </tr>
+</table>
+
 ## License
 Lock_Unlock_A_Computer_Using_RFID is Licensed under MIT. Read the [LICENSE](https://github.com/1StranGe/Lock_Unlock_A_Computer_Using_RFID/blob/master/LICENSE) file for more information.
