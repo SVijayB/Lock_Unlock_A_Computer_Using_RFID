@@ -193,7 +193,7 @@ Also, thanks for contributing to Open-source!
 
 <table>
   <tr>
-    <td align="center"><a href="https://github.com/naruita"><img src="https://avatars.githubusercontent.com/u/31721284?v=3" width="100px;" alt=""/><br /><sub><b>Naruita</b></sub></td>
+    <td align="center"><a href="https://github.com/naruita"><img src="https://avatars.githubusercontent.com/u/31721284?v=3" width="100px;" alt=""/><br /><b>Naruita</td>
     </tr>
 </table>
 
