@@ -96,6 +96,8 @@ steps given below.
 
 Once you are done adding the library, you are all set up for editing the code.
 
+To find the UID code for the RFID tags, run [UID_identification](UID_identification.ino) in your Arduino and collect the UID tag info from the output screen.
+
 The first change you have to do is modify your `UID number`.
 
 <img src="https://i.ibb.co/1q8qRjt/SS1.png" alt="SS1" border="0">
