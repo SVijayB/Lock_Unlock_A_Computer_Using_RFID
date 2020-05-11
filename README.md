@@ -96,6 +96,8 @@ steps given below.
 
 Once you are done adding the library, you are all set up for editing the code.
 
+To find the UID code for the further steps, please refer to the [UID_identification](docs/UID_identification.md).
+
 The first change you have to do is modify your `UID number`.
 
 <img src="https://i.ibb.co/1q8qRjt/SS1.png" alt="SS1" border="0">
