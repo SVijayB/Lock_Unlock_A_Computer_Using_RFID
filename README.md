@@ -111,6 +111,8 @@ steps given below.
 
 Once you are done adding the library, you are all set up for editing the code.
 
+To find the UID code for the RFID tags, run [UID_identification](UID_identification.ino) in your Arduino and collect the UID tag info from the output screen.
+
 The first change you have to do is modify your `UID number`.
 
 <img src="https://i.ibb.co/1q8qRjt/SS1.png" alt="SS1" border="0">
@@ -201,6 +203,14 @@ You can find the demo for this working project <a href="https://www.youtube.com/
 To contribute to the project, fork the repository, create a new branch and send us a pull request. Make sure you read [CONTRIBUTING.md](https://github.com/1StranGe/Lock_Unlock_A_Computer_Using_RFID/blob/master/docs/CONTRIBUTING.md) before sending us Pull requests. 
 
 Also, thanks for contributing to Open-source!
+
+### Contributors
+
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/naruita"><img src="https://avatars.githubusercontent.com/u/31721284?v=3" width="100px;" alt=""/><br /><b>Naruita</td>
+    </tr>
+</table>
 
 ## License
 Lock_Unlock_A_Computer_Using_RFID is Licensed under MIT. Read the [LICENSE](https://github.com/1StranGe/Lock_Unlock_A_Computer_Using_RFID/blob/master/LICENSE) file for more information.
