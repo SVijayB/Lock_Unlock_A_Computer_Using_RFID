@@ -4,6 +4,21 @@
     <br>An Arduino Project that allows you to lock and unlock any computer with the help of an RFID Reader.
 </p>
 
+## Table of Contents
+- [Motivation](#Motivation)
+- [Installation](#Installation)
+- [Usage](#Usage)
+    - [Component Identification](#Step-1:-Component-Identification)
+        - [Hardware](#Hardware-used-in-this-project)
+        - [Software](#Software-used-in-this-project)
+    - [Connections](#Step-2:-Connections)
+    - [Changing the Code](#Step-3:-Changing-The-Code)
+    - [Upgrading Firmware](#Step-4:-Upgrading-the-Firmware-of-Atmega16U2-on-Board)
+    - [Testing](#Step-5:-Testing)
+- [Contributing](#Contributing)
+- [License](#License)
+
+
 ## Motivation
 
 A project built to reduce the time it takes to manually type a password, and allows users to use complex passwords without the worry about forgetting it.
@@ -35,7 +50,7 @@ The first step is to understand the various components used in this project.
 
 ### Step 1: Component Identification
 
-**Hardware used in this project:**
+#### Hardware used in this project:
 
 1. Arduino Uno
 2. RFID Scanner
@@ -43,7 +58,7 @@ The first step is to understand the various components used in this project.
 4. Jumper wires
 5. Breadboard
 
-**Software used in this project:**
+#### Software used in this project:
 
 1. <a href="https://www.arduino.cc/en/Main/Software">Arduino IDE</a>
 2. <a href="http://ww1.microchip.com/downloads/en/DeviceDoc/JRE%20-%20Flip%20Installer%20-%203.4.7.112.exe">Atmel Flip 3.4.7</a>
