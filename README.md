@@ -8,13 +8,13 @@
 - [Motivation](#Motivation)
 - [Installation](#Installation)
 - [Usage](#Usage)
-    - [Component Identification](#Component-Identification)
+    - [Component Identification](#Step-1-Component-Identification)
         - [Hardware](#Hardware-used-in-this-project)
         - [Software](#Software-used-in-this-project)
-    - [Connections](#Connections)
-    - [Changing the Code](#Changing-The-Code)
-    - [Upgrading Firmware](#Upgrading-the-Firmware-of-Atmega16U2-on-Board)
-    - [Testing](#Testing)
+    - [Connections](#Step-2-Connections)
+    - [Changing the Code](#Step-3-Changing-The-Code)
+    - [Upgrading Firmware](#Step-4-Upgrading-the-Firmware-of-Atmega16U2-on-Board)
+    - [Testing](#Step-5-Testing)
 - [Contributing](#Contributing)
 - [License](#License)
 
@@ -48,7 +48,7 @@ git clone https://github.com/1StranGe/Lock_Unlock_A_Computer_Using_RFID.git
 
 The first step is to understand the various components used in this project.
 
-### Component Identification:
+### Step 1: Component Identification
 
 #### Hardware used in this project:
 
@@ -66,7 +66,7 @@ The first step is to understand the various components used in this project.
 Once, you have all the components required for the project, the next step would
 be to make the connections.
 
-### Connections:
+### Step 2: Connections
 
 **NOTE:** Make the Connections **exactly** as given below; else, you would have to
 modify the code.
@@ -91,7 +91,7 @@ modify the code.
 Once, the connections are made, you are ready to get started with the software
 part of the project.
 
-### Changing The Code:
+### Step 3: Changing The Code
 
 Firstly, make sure you add `MFRC522` Library to Arduino IDE
 
@@ -110,8 +110,6 @@ steps given below.
 6. Extract the downloaded MFRC522 Library inside this folder.
 
 Once you are done adding the library, you are all set up for editing the code.
-
-To find the UID code for the RFID tags, run [UID_identification](UID_identification.ino) in your Arduino and collect the UID tag info from the output screen.
 
 The first change you have to do is modify your `UID number`.
 
@@ -154,7 +152,7 @@ Once you are done with uploading the code, it is time for you to update the
 Firmware of Arduino in order to change it into a keyboard. So that it can enter
 your password when locked or press Win+L to lock the computer.
 
-### Upgrading the Firmware of Atmega16U2 on Board:
+### Step 4: Upgrading the Firmware of Atmega16U2 on Board
 
 If you haven't installed <a href="http://ww1.microchip.com/downloads/en/DeviceDoc/JRE%20-%20Flip%20Installer%20-%203.4.7.112.exe">Atmel Flip 3.4.7</a> yet, do it now.
 
@@ -180,7 +178,7 @@ device will be recognised as Arduino Uno.
 
 Once you are done with updating the firmware, it is time to test your hardware.
 
-### Testing:
+### Step 5: Testing
 
 Connect your Arduino to the computer and slowly move your RFID tag towards
 your RFID scanner.
@@ -203,14 +201,6 @@ You can find the demo for this working project <a href="https://www.youtube.com/
 To contribute to the project, fork the repository, create a new branch and send us a pull request. Make sure you read [CONTRIBUTING.md](https://github.com/1StranGe/Lock_Unlock_A_Computer_Using_RFID/blob/master/docs/CONTRIBUTING.md) before sending us Pull requests. 
 
 Also, thanks for contributing to Open-source!
-
-### Contributors
-
-<table>
-  <tr>
-    <td align="center"><a href="https://github.com/naruita"><img src="https://avatars.githubusercontent.com/u/31721284?v=3" width="100px;" alt=""/><br /><b>Naruita</td>
-    </tr>
-</table>
 
 ## License
 Lock_Unlock_A_Computer_Using_RFID is Licensed under MIT. Read the [LICENSE](https://github.com/1StranGe/Lock_Unlock_A_Computer_Using_RFID/blob/master/LICENSE) file for more information.
