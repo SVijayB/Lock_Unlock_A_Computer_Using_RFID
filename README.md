@@ -8,13 +8,13 @@
 - [Motivation](#Motivation)
 - [Installation](#Installation)
 - [Usage](#Usage)
-    - [Component Identification](#Step-1:-Component-Identification)
+    - [Component Identification](#Component-Identification:)
         - [Hardware](#Hardware-used-in-this-project)
         - [Software](#Software-used-in-this-project)
-    - [Connections](#Step-2:-Connections)
-    - [Changing the Code](#Step-3:-Changing-The-Code)
-    - [Upgrading Firmware](#Step-4:-Upgrading-the-Firmware-of-Atmega16U2-on-Board)
-    - [Testing](#Step-5:-Testing)
+    - [Connections](#Connections:)
+    - [Changing the Code](#Changing-The-Code:)
+    - [Upgrading Firmware](#Upgrading-the-Firmware-of-Atmega16U2-on-Board:)
+    - [Testing](#Testing:)
 - [Contributing](#Contributing)
 - [License](#License)
 
@@ -48,7 +48,7 @@ git clone https://github.com/1StranGe/Lock_Unlock_A_Computer_Using_RFID.git
 
 The first step is to understand the various components used in this project.
 
-### Step 1: Component Identification
+### Component Identification:
 
 #### Hardware used in this project:
 
@@ -66,7 +66,7 @@ The first step is to understand the various components used in this project.
 Once, you have all the components required for the project, the next step would
 be to make the connections.
 
-### Step 2: Connections
+### Connections:
 
 **NOTE:** Make the Connections **exactly** as given below; else, you would have to
 modify the code.
@@ -91,7 +91,7 @@ modify the code.
 Once, the connections are made, you are ready to get started with the software
 part of the project.
 
-### Step 3: Changing The Code
+### Changing The Code:
 
 Firstly, make sure you add `MFRC522` Library to Arduino IDE
 
@@ -154,7 +154,7 @@ Once you are done with uploading the code, it is time for you to update the
 Firmware of Arduino in order to change it into a keyboard. So that it can enter
 your password when locked or press Win+L to lock the computer.
 
-### Step 4: Upgrading the Firmware of Atmega16U2 on Board
+### Upgrading the Firmware of Atmega16U2 on Board:
 
 If you haven't installed <a href="http://ww1.microchip.com/downloads/en/DeviceDoc/JRE%20-%20Flip%20Installer%20-%203.4.7.112.exe">Atmel Flip 3.4.7</a> yet, do it now.
 
@@ -180,7 +180,7 @@ device will be recognised as Arduino Uno.
 
 Once you are done with updating the firmware, it is time to test your hardware.
 
-### Step 5: Testing
+### Testing:
 
 Connect your Arduino to the computer and slowly move your RFID tag towards
 your RFID scanner.
