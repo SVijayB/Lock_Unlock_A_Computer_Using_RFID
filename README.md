@@ -164,7 +164,7 @@ Firmware files that are used are present within this repository.
 Now, follow the steps given below:
 
 1. Place a jumper on reset and ground and remove it like in the picture
-2. Open Atmel Flip and select the firmware file `Arduino-Keyboard-0.3.hex`.</br>
+2. Open Atmel Flip and select the firmware file `Arduino-Keyboard-0.3.hex`.
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;From File Tab -> Load Hex File
 3. Select Run.
 4. Remove USB and plug it again.
