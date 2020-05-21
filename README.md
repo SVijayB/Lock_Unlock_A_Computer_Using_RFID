@@ -1,6 +1,6 @@
 # Lock_Unlock_A_Computer_Using_RFID
 <p align="center">
-    <a href="https://github.com/1StranGe/Lock_Unlock_A_Computer_Using_RFID"><img src="https://i.ibb.co/6Rp1KWq/Logo.png" alt="Logo" border="0"></a>
+    <a href="https://github.com/SVijayB/Lock_Unlock_A_Computer_Using_RFID"><img src="https://i.ibb.co/6Rp1KWq/Logo.png" alt="Logo" border="0"></a>
     <br>An Arduino Project that allows you to lock and unlock any computer with the help of an RFID Reader.
 </p>
 
@@ -26,7 +26,7 @@ A project built to reduce the time it takes to manually type a password, and all
 This was an university project that helped me learn the basics of Arduino and C.
 
 <p align="center">
-    <a href="https://github.com/1StranGe/Lock_Unlock_A_Computer_Using_RFID"><img src="https://i.ibb.co/TKXkSct/Logo2.png" alt="Logo2" border="0"></a>
+    <a href="https://github.com/SVijayB/Lock_Unlock_A_Computer_Using_RFID"><img src="https://i.ibb.co/TKXkSct/Logo2.png" alt="Logo2" border="0"></a>
 </p>
 
 ## Installation
@@ -38,10 +38,10 @@ Ensure that you have the latest version of the Arduino IDE installed.
 In order to upgrade the Firmware of `Atmega16U2` on Board, we use 
 `Atmel Flip 3.4.7`. Click here to <a href="http://ww1.microchip.com/downloads/en/DeviceDoc/JRE%20-%20Flip%20Installer%20-%203.4.7.112.exe">Download</a> the software. 
 
-Download the latest version of this project from <a href="https://github.com/1StranGe/Lock_Unlock_A_Computer_Using_RFID/releases">Releases</a>.
+Download the latest version of this project from <a href="https://github.com/SVijayB/Lock_Unlock_A_Computer_Using_RFID/releases">Releases</a>.
 As an alternative, you can also clone this repository using
 <pre>
-git clone https://github.com/1StranGe/Lock_Unlock_A_Computer_Using_RFID.git
+git clone https://github.com/SVijayB/Lock_Unlock_A_Computer_Using_RFID.git
 </pre>
 
 ## Usage
@@ -121,7 +121,7 @@ Once you are done modifying the UID, Its time for you to change the `keystrokes`
 
 Keystrokes are the keyboard strokes you make to enter your computer password,
 in other words the keys you press to enter your computer password. So first, you convert your computer
-password into keyboard strokes using the <a href="https://github.com/1StranGe/Lock_Unlock_A_Computer_Using_RFID/blob/master/USBKeyScan.pdf">USBKeyScan.pdf</a> I’ve added in the
+password into keyboard strokes using the <a href="https://github.com/SVijayB/Lock_Unlock_A_Computer_Using_RFID/blob/master/USBKeyScan.pdf">USBKeyScan.pdf</a> I’ve added in the
 repository.
 
 By Default, my code is set to type ABCD as the keystroke(I had set my computer
@@ -135,7 +135,7 @@ you have to edit the highlighted code. Don’t change anything, just go to
 buf[2] = 0x04; 
 </pre>
 and change **04** into the keystroke number of
-the first letter of your password using the <a href="https://github.com/1StranGe/Lock_Unlock_A_Computer_Using_RFID/blob/master/USBKeyScan.pdf">USBKeyScan.pdf</a>.
+the first letter of your password using the <a href="https://github.com/SVijayB/Lock_Unlock_A_Computer_Using_RFID/blob/master/USBKeyScan.pdf">USBKeyScan.pdf</a>.
 
 Similarly modify the next `buf[2] = 0x05` to the second letter of your password.
 
@@ -198,9 +198,9 @@ You can find the demo for this working project <a href="https://www.youtube.com/
 
 ## Contributing 
 
-To contribute to the project, fork the repository, create a new branch and send us a pull request. Make sure you read [CONTRIBUTING.md](https://github.com/1StranGe/Lock_Unlock_A_Computer_Using_RFID/blob/master/docs/CONTRIBUTING.md) before sending us Pull requests. 
+To contribute to the project, fork the repository, create a new branch and send us a pull request. Make sure you read [CONTRIBUTING.md](https://github.com/SVijayB/Lock_Unlock_A_Computer_Using_RFID/blob/master/docs/CONTRIBUTING.md) before sending us Pull requests. 
 
 Also, thanks for contributing to Open-source!
 
 ## License
-Lock_Unlock_A_Computer_Using_RFID is Licensed under MIT. Read the [LICENSE](https://github.com/1StranGe/Lock_Unlock_A_Computer_Using_RFID/blob/master/LICENSE) file for more information.
+Lock_Unlock_A_Computer_Using_RFID is Licensed under MIT. Read the [LICENSE](https://github.com/SVijayB/Lock_Unlock_A_Computer_Using_RFID/blob/master/LICENSE) file for more information.
