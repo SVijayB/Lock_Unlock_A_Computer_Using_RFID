@@ -17,8 +17,6 @@
 [![Code of Conduct](https://img.shields.io/badge/code%20of-conduct-ff69b4.svg?style=flat)](https://github.com/SVijayB/Lock_Unlock_A_Computer_Using_RFID/blob/master/docs/CODE_OF_CONDUCT.md)
 [![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/SVijayB/Lock_Unlock_A_Computer_Using_RFID/blob/master/docs/CONTRIBUTING.md)
 
-<details>
-<summary>Table of content</summary>
 
 ## Table of Contents
 - [Motivation](#Motivation)
@@ -33,8 +31,6 @@
     - [Testing](#Step-5-Testing)
 - [Contributing](#Contributing)
 - [License](#License)
-
-</details>
 
 ## Motivation
 
