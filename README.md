@@ -4,6 +4,22 @@
     <br>An Arduino Project that allows you to lock and unlock any computer with the help of an RFID Reader.
 </p>
 
+---
+
+[![GitHub pull-requests](https://img.shields.io/github/issues-pr/SVijayB/Lock_Unlock_A_Computer_Using_RFID.svg)](https://github.com/SVijayB/Lock_Unlock_A_Computer_Using_RFID/pulls)
+[![GitHub issues](https://img.shields.io/github/issues/SVijayB/Lock_Unlock_A_Computer_Using_RFID.svg)](https://github.com/SVijayB/Lock_Unlock_A_Computer_Using_RFID/issues)
+[![GitHub contributors](https://img.shields.io/github/contributors/SVijayB/Lock_Unlock_A_Computer_Using_RFID.svg)](https://github.com/SVijayB/Lock_Unlock_A_Computer_Using_RFID/graphs/contributors)
+
+[![GitHub license](https://img.shields.io/github/license/SVijayB/Lock_Unlock_A_Computer_Using_RFID.svg)](https://github.com/SVijayB/Lock_Unlock_A_Computer_Using_RFID/blob/master/LICENSE)
+[![GitHub release](https://img.shields.io/github/release/SVijayB/Lock_Unlock_A_Computer_Using_RFID.svg)](https://github.com/SVijayB/Lock_Unlock_A_Computer_Using_RFID/releases)
+[![GitHub repo size](https://img.shields.io/github/repo-size/SVijayB/Lock_Unlock_A_Computer_Using_RFID)](https://github.com/SVijayB/Lock_Unlock_A_Computer_Using_RFID)
+
+[![Code of Conduct](https://img.shields.io/badge/code%20of-conduct-ff69b4.svg?style=flat)](https://github.com/SVijayB/Lock_Unlock_A_Computer_Using_RFID/blob/master/docs/CODE_OF_CONDUCT.md)
+[![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/SVijayB/Lock_Unlock_A_Computer_Using_RFID/blob/master/docs/CONTRIBUTING.md)
+
+<details>
+<summary>Table of content</summary>
+
 ## Table of Contents
 - [Motivation](#Motivation)
 - [Installation](#Installation)
@@ -18,6 +34,7 @@
 - [Contributing](#Contributing)
 - [License](#License)
 
+</details>
 
 ## Motivation
 
