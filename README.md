@@ -14,8 +14,8 @@
 [![GitHub release](https://img.shields.io/github/release/SVijayB/Lock_Unlock_A_Computer_Using_RFID.svg)](https://github.com/SVijayB/Lock_Unlock_A_Computer_Using_RFID/releases)
 [![GitHub repo size](https://img.shields.io/github/repo-size/SVijayB/Lock_Unlock_A_Computer_Using_RFID)](https://github.com/SVijayB/Lock_Unlock_A_Computer_Using_RFID)
 
-[![Code of Conduct](https://img.shields.io/badge/code%20of-conduct-ff69b4.svg?style=flat)](https://github.com/SVijayB/Lock_Unlock_A_Computer_Using_RFID/blob/master/docs/CODE_OF_CONDUCT.md)
-[![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/SVijayB/Lock_Unlock_A_Computer_Using_RFID/blob/master/docs/CONTRIBUTING.md)
+[![Code of Conduct](https://img.shields.io/badge/code%20of-conduct-ff69b4.svg?style=flat)](https://github.com/SVijayB/Lock_Unlock_A_Computer_Using_RFID/blob/master/.github/CODE_OF_CONDUCT.md)
+[![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/SVijayB/Lock_Unlock_A_Computer_Using_RFID/blob/master/.github/CONTRIBUTING.md)
 
 
 ## Table of Contents
@@ -211,7 +211,7 @@ You can find the demo for this working project <a href="https://www.youtube.com/
 
 ## Contributing 
 
-To contribute to the project, fork the repository, create a new branch and send us a pull request. Make sure you read [CONTRIBUTING.md](https://github.com/SVijayB/Lock_Unlock_A_Computer_Using_RFID/blob/master/docs/CONTRIBUTING.md) before sending us Pull requests. 
+To contribute to the project, fork the repository, create a new branch and send us a pull request. Make sure you read [CONTRIBUTING.md](https://github.com/SVijayB/Lock_Unlock_A_Computer_Using_RFID/blob/master/.github/CONTRIBUTING.md) before sending us Pull requests. 
 
 Also, thanks for contributing to Open-source!
 
