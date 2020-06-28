@@ -210,7 +210,7 @@ the folder.
 ## Demo
 
 <p align="center">
-    <img src="https://j.gifs.com/81nNm2.gif" alt="Reset" border="0">
+    <img src="assets/Demo.gif" alt="Demo" border="0">
 </p>
 
 ## Contributing 
