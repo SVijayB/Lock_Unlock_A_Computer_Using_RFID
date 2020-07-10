@@ -1,6 +1,6 @@
 # Lock_Unlock_A_Computer_Using_RFID
 <p align="center">
-    <a href="https://github.com/SVijayB/Lock_Unlock_A_Computer_Using_RFID"><img src="https://i.ibb.co/6Rp1KWq/Logo.png" alt="Logo" border="0"></a>
+    <a href="https://github.com/SVijayB/Lock_Unlock_A_Computer_Using_RFID"><img src="assets/Logo.PNG" alt="Logo" border="0"></a>
     <br>An Arduino Project that allows you to lock and unlock any computer with the help of an RFID Reader.
 </p>
 
@@ -39,7 +39,7 @@ A project built to reduce the time it takes to manually type a password, and all
 This was an university project that helped me learn the basics of Arduino and C.
 
 <p align="center">
-    <a href="https://github.com/SVijayB/Lock_Unlock_A_Computer_Using_RFID"><img src="https://i.ibb.co/TKXkSct/Logo2.png" alt="Logo2" border="0"></a>
+    <a href="https://github.com/SVijayB/Lock_Unlock_A_Computer_Using_RFID"><img src="assets/Logo2.PNG" alt="Logo2" border="0"></a>
 </p>
 
 ## Installation
@@ -97,7 +97,7 @@ modify the code.
 | 3.3V 	| 3.3V                  	|
 
 <p align="center">
-    <img src="https://i.ibb.co/Z1snH20/Connections.png" alt="Connections" border="0">
+    <img src="assets/Connections.PNG" alt="Connections" border="0">
     <br>Connections
 </p>
 
@@ -126,7 +126,7 @@ Once you are done adding the library, you are all set up for editing the code.
 
 The first change you have to do is modify your `UID number`.
 
-<img src="https://i.ibb.co/1q8qRjt/SS1.png" alt="SS1" border="0">
+<img src="assets/SS1.PNG" alt="SS1" border="0">
 
 The Line Highlighted is the UID of my RFID tags. Remove them and add your UID
 
@@ -140,7 +140,7 @@ repository.
 By Default, my code is set to type ABCD as the keystroke(I had set my computer
 password as ABCD).
 
-<img src="https://i.ibb.co/42b8jMM/SS2.png" alt="SS2" border="0">
+<img src="assets/SS2.PNG" alt="SS2" border="0">
 
 To set up your password,
 you have to edit the highlighted code. Don’t change anything, just go to
@@ -171,7 +171,7 @@ If you haven't installed <a href="http://ww1.microchip.com/downloads/en/DeviceDo
 
 Firmware files that are used are present within this repository.
 <p align="center">
-    <img src="https://i.ibb.co/1QHRKhg/Reset.png" alt="Reset" border="0">
+    <img src="assets/Reset.PNG" alt="Reset" border="0">
 </p>
 
 Now, follow the steps given below:
